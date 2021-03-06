@@ -18,4 +18,16 @@ Change the name of your font
 ```
  and save
  
+ choose your prompt theme:
+ https://ohmyposh.dev/docs/themes/
+ 
+ ```
+notepad $PROFILE
+```
+
+```
+...
+...
+Set-PoshPrompt -Theme <change-me>
+```
  
