@@ -1,15 +1,15 @@
 ﻿# WinTerminal
 
-Install Windows Terminal
+1) Install Windows Terminal
 https://github.com/microsoft/terminal
 
-Setup PowerLine
+2) Setup PowerLine
 https://docs.microsoft.com/en-us/windows/terminal/tutorials/powerline-setup
 
-Download a Nerd Font
+3) Download and install a Nerd Font
 https://www.nerdfonts.com/font-downloads
 
-open windows terminal and goto settings [Ctrl+,]
+4) open windows terminal and goto settings [Ctrl+,]
 
 Change the name of your font 
 
@@ -18,16 +18,17 @@ Change the name of your font
 ```
  and save
  
- choose your prompt theme:
+ 5) choose your prompt theme:
  https://ohmyposh.dev/docs/themes/
  
  ```
 notepad $PROFILE
 ```
-
+ set your theme in your profile file and save it 
 ```
 ...
 ...
 Set-PoshPrompt -Theme <change-me>
 ```
  
+ 6) finally close and relaunch your terminal
